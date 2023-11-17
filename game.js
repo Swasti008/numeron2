@@ -70,8 +70,9 @@ add.addEventListener("click",function(){
         resetTime(timing);
     }
     else {
-        window.location.href="gameover.html";
-        localStorage.setItem('score',score);
+        // window.location.href="gameover.html";
+        // localStorage.setItem('score',score);
+        location.href="gameover.html?score="+score;
     }
 })
 substract.addEventListener("click",function(){
@@ -82,8 +83,9 @@ substract.addEventListener("click",function(){
         resetTime(timing);
     }
     else {
-        window.location.href="gameover.html";
-        localStorage.setItem('score',score);
+        // window.location.href="gameover.html";
+        // localStorage.setItem('score',score);
+        location.href="gameover.html?score="+score;
     }
 })
 multiply.addEventListener("click",function(){
@@ -94,8 +96,9 @@ multiply.addEventListener("click",function(){
         resetTime(timing);
     }
     else {
-        window.location.href="gameover.html";
-        localStorage.setItem('score',score);
+       // window.location.href="gameover.html";
+        // localStorage.setItem('score',score);
+        location.href="gameover.html?score="+score;
     }
 })
 divide.addEventListener("click",function(){
@@ -106,8 +109,9 @@ divide.addEventListener("click",function(){
         resetTime(timing);
     }
     else {
-        window.location.href="gameover.html";
-        localStorage.setItem('score',score);
+        // window.location.href="gameover.html";
+        // localStorage.setItem('score',score);
+        location.href="gameover.html?score="+score;
     }
 })
 modulo.addEventListener("click",function(){
@@ -118,8 +122,9 @@ modulo.addEventListener("click",function(){
         resetTime(timing);
     }
     else {
-        window.location.href="gameover.html";
-        localStorage.setItem('score',score);
+       // window.location.href="gameover.html";
+        // localStorage.setItem('score',score);
+        location.href="gameover.html?score="+score;
     }
 })
 
@@ -135,8 +140,9 @@ function timerON(){
             timer.innerHTML="<p>"+time+"</p>";
         }
         else{
-            window.location.href="gameover.html"
-            localStorage.setItem('score',score);
+            // window.location.href="gameover.html";
+        // localStorage.setItem('score',score);
+        location.href="gameover.html?score="+score;
         }
         
     },1000);
