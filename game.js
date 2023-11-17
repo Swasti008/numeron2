@@ -124,11 +124,11 @@ modulo.addEventListener("click",function(){
 })
 
 // Iteration 7: Making Timer functional
-let time=5;
+let time=20;
 let timer=document.getElementById("timer");
 var timing;
 function timerON(){
-    time = 5;
+    time = 20;
         timing =setInterval(function(){
         time--;
         if (time!=0){
